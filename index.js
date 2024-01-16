@@ -42,8 +42,8 @@ if (randomNumber1 === randomNumber2) {
     document.querySelector("h1").style.fontSize = "5rem"
     document.querySelector("h1").innerHTML = "<span>Draw!</span><br> <span class='draw'>Try Again</span>";
 } else if (randomNumber1 > randomNumber2)  {
-    document.querySelector("h1").innerHTML = "<span>Player 1</span> Wins!";
+    document.querySelector("h1").innerHTML = "<span>Player 1</span><br> Wins!";
 } else {
-    document.querySelector("h1").innerHTML= "<span>Player 2</span> Wins!";
+    document.querySelector("h1").innerHTML= "<span>Player 2</span><br> Wins!";
 }
 }

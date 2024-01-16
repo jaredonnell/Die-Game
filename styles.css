@@ -35,6 +35,11 @@ span {
   color:#9C060C
 }
 
+.draw {
+  color:#FAF1D8;
+  font-size:4.5rem;
+}
+
 .wrap {
 display: flex;
 flex-direction: column;
@@ -45,7 +50,7 @@ margin-right: 200px;
 }
 
 #refresh {
-  width:50%;
+  width:150px;
   height:50px;
   margin-top: 50px;
   background-color: black;
@@ -82,23 +87,20 @@ img {
   max-width:136px;
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
-}
-
-@media (max-width:500px){
+@media (max-width:700px){
+  body {
+    height:100dvh;
+    margin:0;
+  } 
+  
   .container {
     display:flex;
     flex-direction: column;
-    height:100%;
   }
 
   h1 {
     margin:0;
+    font-size: 4.5rem;
   }
 
   .wrap {
@@ -106,8 +108,9 @@ footer {
     margin-right:0;
   }
 
-  footer {
-    margin-top:75px;
+  .draw {
+    font-size:3.5rem;
+    color:#FAF1D8;
   }
 
 }

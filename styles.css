@@ -74,10 +74,40 @@ img {
   width: 80%;
 }
 
+.dice-cont {
+  display:flex;
+}
+
+.dice {
+  max-width:136px;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+
+}
+
+@media (max-width:500px){
+  .container {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+  }
+
+  h1 {
+    margin:0;
+  }
+
+  .wrap {
+    margin-top:20px;
+    margin-right:0;
+  }
+
+  footer {
+    margin-top:75px;
+  }
 
 }
